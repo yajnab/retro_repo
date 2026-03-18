@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="yajnab"
-           fetch=".."
-            />
-
-  <remote  name="lcdyk"
+  <remote  name="github"
            fetch=".." />
+
 
   <default remote="github"
            sync-c="true" />
