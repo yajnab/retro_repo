@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="yajnab"
+           fetch=".."
+            />
+
+  <remote  name="lcdyk"
+           fetch=".." />
+
+  <default remote="github"
+           sync-c="true" />
+
+
+  <!-- yajnab Projects -->
+	<project path="./" name="yajnab/kernel_builder" revision="refs/heads/arkos" />
+	<project path="kernel" name="yajnab/arkos_kernel" revision="refs/heads/rg351" />
+
+
+  <!---External Repositories -->
+	<project path="arkos4clone" name="lcdyk0517/arkos4clone" revision="refs/heads/main" />
+
+</manifest>
