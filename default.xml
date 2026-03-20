@@ -19,5 +19,6 @@
 
   <!---External Repositories -->
 	<project path="arkos4clone" name="lcdyk0517/arkos4clone" revision="refs/heads/main" />
+	<project path="device_files" name="ZyoungInc/r36ultra-linux" revision="refs/heads/main" />
 
 </manifest>
